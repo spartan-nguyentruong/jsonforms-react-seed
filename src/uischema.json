@@ -24,6 +24,11 @@
       ]
     },
     {
+      "type": "Control",
+      "scope": "#/properties/media-capture",
+      "label": "Pictures"
+    },
+    {
       "type": "HorizontalLayout",
       "elements": [
         {

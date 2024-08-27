@@ -26,6 +26,9 @@
     },
     "recurrence_interval": {
       "type": "integer"
+    },
+    "media-capture": {
+      "type": "array"
     }
   },
   "required": ["name", "due_date"]

@@ -11,6 +11,8 @@ import RatingControl from './RatingControl';
 import ratingControlTester from '../ratingControlTester';
 import schema from '../schema.json';
 import uischema from '../uischema.json';
+import MediaCaptureControlWithJsonForms from '../components/mediaCapture/MediaCaptureControl'
+import { MediaCaptureControlTester } from '../components/mediaCapture/MediaCaptureControl';
 
 const classes = {
   container: {
@@ -50,6 +52,7 @@ const renderers = [
   ...materialRenderers,
   //register custom renderers
   { tester: ratingControlTester, renderer: RatingControl },
+  { tester: MediaCaptureControlTester, renderer: MediaCaptureControlWithJsonForms },
 ];
 
 export const JsonFormsDemo: FC = () => {
